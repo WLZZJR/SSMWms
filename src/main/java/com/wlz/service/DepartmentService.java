@@ -1,10 +1,10 @@
-package com.wlz.dao;
+package com.wlz.service;
 
 import com.wlz.entity.Department;
 
 import java.util.List;
 
-public interface DepartmentDao {
+public interface DepartmentService {
 
     void save(Department entity);
     void update(Department entity);

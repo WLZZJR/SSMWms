@@ -40,9 +40,9 @@ public class DepartmentDaoTest extends BaseTest {
     @Test
     public void delete(){
 
-        int result=departmentDao.delete(11L);
+        departmentDao.delete(11L);
 
-        System.out.println(result);
+
     }
 
 
@@ -52,8 +52,8 @@ public class DepartmentDaoTest extends BaseTest {
         department.setId(12L);
         department.setName("总经办");
         department.setSn("CEO");
-        int result=departmentDao.update(department);
+        departmentDao.update(department);
 
-        System.out.println(result);
+
     }
 }

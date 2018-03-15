@@ -8,9 +8,9 @@ import java.util.List;
 
 public interface RoleDao {
 
-    int save(Role entity);
-    int update(Role entity);
-    int delete(Long id);
+    void save(Role entity);
+    void update(Role entity);
+    void delete(Long id);
     Role get(Long id);
     List<Role> listAll();
     /**
